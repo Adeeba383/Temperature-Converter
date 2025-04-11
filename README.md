@@ -1,13 +1,26 @@
-# Temperature Converter
-This is a temperature converter program. Here you can select any temperature variable that you want to convert and to convert to which ever you want as well. You can add value as well and get the result. 
+# 🌡️ Temperature Converter
 
-# Technologies used
-- HTML
-- CSS
-- JAVASCRIPT
+This is a simple and interactive temperature converter. You can select the temperature unit you want to convert **from** (e.g., Celsius, Fahrenheit, Kelvin), choose the unit you want to convert **to**, enter a value, and instantly get the result!
 
-# License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+Great for quick conversions while learning or testing different scales.
 
-# Checkout the program
-You can preview the program by clicking the link below.
+---
+
+## 🚀 Technologies Used
+
+- HTML  
+- CSS  
+- JavaScript
+
+---
+
+## 📝 License
+
+This project is licensed under the **MIT License** – see the [LICENSE](LICENSE) file for details.
+
+---
+
+## 🔗 Live Preview
+
+Click the link below to try the app in your browser:  
+[Temperature Converter Live](https://adeeba383.github.io/Temperature-Converter/)
