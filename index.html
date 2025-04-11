@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form method="get">
+        <h1>Temperature Conversion</h1>
+        <fieldset>
+        <label for="Temp1">From: 
+            <select name="drop" id="drop" class="labels">
+                <option value="Celsius">Celsius</option>
+                <option value="Fahrenheit">Fahrenheit</option>
+                <option value="Kelvin" >Kelvin</option>
+            </select>
+        </label>
+        <label for="Temp2">To: 
+            <select name="down" id="down" class="labels">
+                <option value="Celsius" >Celsius</option>
+                <option value="Fahrenheit" >Fahrenheit</option>
+                <option value="Kelvin" >Kelvin</option>
+            </select>
+        </label></fieldset><br>
+        <input type="number" id="Temp1" class="numb" placeholder="Add Value">
+        <br> <br>
+        <button id="button1" class="button" type="button" onclick="Clear()">Clear</button>
+        <button id="button2" class="button" type="button" onclick="Convert()">Calculate</button>
+        <p id="result">Output</p>
+    </form>
+    <script src="index.js"></script>
+</body>
+</html>

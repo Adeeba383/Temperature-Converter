@@ -1,0 +1,74 @@
+body{
+    background-color: rgb(170, 82, 82);
+}
+
+form{
+    background-color: white;
+    max-width: 500px;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    text-align: center;
+    padding: 20px;
+    border-radius: 3px;
+    box-shadow: 0 4px 5px  hsla(0, 0%, 0%, 0.685), 0 6px 20px  rgba(0, 0, 0, 0.473);
+}
+
+h1{
+    color: rgb(92, 14, 14);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 33px;
+}
+.labels, .numb, .button{
+    font-size: 20px;
+    margin: 10px;
+    padding: 5px;
+    width: 150px;
+    border-radius: 5px;
+}
+label{
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.labels{
+    border: none;
+    background-color: rgba(151, 77, 88, 0.829);
+    color: white;
+    cursor: pointer;
+}
+.labels:hover{
+    background-color: rgba(206, 54, 77, 0.829);
+    transition: 0.05s ease;
+}
+.numb{
+    text-align: center;
+    color: rgba(206, 54, 77, 0.829);
+    border-color: rgba(151, 77, 88, 0.829);
+    font-size: 25px;
+}
+option{
+    background-color: rgb(224, 224, 210);
+    cursor: pointer;
+    color: hsl(0, 4%, 10%);
+}
+
+.button{
+    background-color: rgba(224, 134, 147, 0.829);
+    margin: 0 25px;
+}
+
+.button:hover{
+    background-color: rgba(173, 33, 52, 0.829);
+    color: rgb(192, 177, 177);
+}
+#result{
+    font-size: 30px;
+    color: rgba(95, 46, 54, 0.829);
+    border: 2px solid black;
+    padding: 5px;
+}
+
+fieldset{
+    border: 4px ridge rgba(95, 46, 54, 0.829);
+}
